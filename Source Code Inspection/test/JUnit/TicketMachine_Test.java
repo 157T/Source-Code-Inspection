@@ -33,7 +33,7 @@ public class TicketMachine_Test {
         
         TicketMachine test = new TicketMachine(100);
         ex.expect(PapelMoedaInvalidaException.class);
-        
+        //
     }
 
     // TODO add test methods here.
