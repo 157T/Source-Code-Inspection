@@ -13,6 +13,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Rule;
 import org.junit.rules.ExpectedException;
 
 /**
@@ -20,6 +21,8 @@ import org.junit.rules.ExpectedException;
  * @author 157
  */
 public class TicketMachine_Test {
+    
+    @Rule
     public ExpectedException  ex = ExpectedException.none();
     @Test
     public void testarInserirMoedaValida() throws PapelMoedaInvalidaException{
