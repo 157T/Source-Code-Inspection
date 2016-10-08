@@ -18,11 +18,11 @@ import org.junit.rules.ExpectedException;
 
 /**
  *
- * @author 157
+ * @author 157.
  */
 public class TicketMachine_Test {
     
-    @Rule
+    
     public ExpectedException  ex = ExpectedException.none();
     @Test
     public void testarInserirMoedaValida() throws PapelMoedaInvalidaException{
